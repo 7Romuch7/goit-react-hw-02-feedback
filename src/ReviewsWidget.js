@@ -45,7 +45,7 @@ class ComponentStatistics extends Component {
     return (
       <>
         <Section title="Please leave feedback">
-          <FeedbackOptions options={['good', 'neutral', 'bad']} onLeaveFeedback={this.onAddition}></FeedbackOptions>
+          <FeedbackOptions options={['good', 'neutral', 'bad']} onLeaveFeedback={this.onAddition} />
         </Section>
         <Section title="Statistics">
           {this.state.notifications
